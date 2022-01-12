@@ -1,0 +1,22 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80")
+    center top;
+  background-size: cover;
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+}
